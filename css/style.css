@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque|Open+Sans&display=swap');
+
+/*general*/
+header, main, footer {
+    margin: 3rem;
+}
+
+header {
+    text-align: center;
+    background: grey;
+    margin: 0;
+    padding: 35px;0
+}
+
+header h2 {
+    font-size: 2.8rem;
+    padding: 24px;
+    color: #fff;
+}
+
+ figure{
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 250px;
+    background-position: center !important;
+}
+
+.nav {
+    width: 100%;
+    justify-content: space-around;
+}
+ 
+
+li.nav-item {
+    margin-left: 10px;
+    min-width: 25%;
+    text-align: center;
+}
+
+nav ul li a{
+    
+    background-color: #1e90ff;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: #fff;
+
+}
+
+ 
+
+
+.tabCon{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 20%;
+    float: left;
+}
+
+.selected {
+    background-color: green !important;
+}
+
+.mainSec {
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 68%;
+    float: left;
+
+}
+.tabCon button{
+    margin: 15px;
+    border-radius: 30px;
+    margin-top: 70px;
+    min-width: 200px;
+
+}
+ 
+footer{
+    background-color: grey;
+    margin-top: 50px; 
+    text-align: center;
+    clear: both;
+}
+
+footer h3 {
+    color: #fff;
+}
+
+.row {
+    justify-content: center;
+} 
+
+footer li {
+    list-style: none;
+    line-height: 2.5;
+    display: inline-block;
+    padding: 10px;
+}
+
+footer li a {
+    color: #fff;
+}
